@@ -1863,9 +1863,9 @@ pre code {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  background-color: #181a1b;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #3c4144;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -6568,7 +6568,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #1b1e1f !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -6578,7 +6578,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #181a1b !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,

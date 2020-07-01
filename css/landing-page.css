@@ -71,9 +71,9 @@ header.masthead h1 {
   }
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 250px) {
   .showcase-img {
-  background: url("../img/HeaderSpeakerV2.png") no-repeat center center;
+  background: no-repeat center center;
   background-size: cover;
   }
 }

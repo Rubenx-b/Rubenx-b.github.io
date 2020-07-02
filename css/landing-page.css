@@ -46,6 +46,14 @@ header.masthead h1 {
   font-size: 2rem;
 }
 
+@media screen and (min-width: 300px) {
+  .masthead {
+  position: relative;
+  background: url("../img/HeaderSpeakerSmall.png") no-repeat center center;
+  background-size: cover;
+  }
+}
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
@@ -71,7 +79,7 @@ header.masthead h1 {
   }
 }
 
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 300px) {
   .showcase-img {
   background: no-repeat center center;
   background-size: cover;
@@ -136,4 +144,10 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.italic {
+  font-size: 24px;
+  font-style: italic;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
